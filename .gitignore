@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (too large for GitHub: ~6.9 GB total; use Git LFS or host elsewhere)
+data/
+
+# Generated outputs (run scripts to reproduce)
+processed/
+figures/*.png
+figures/*.pdf
+results/*.csv
+results/*.txt
+
+# Secrets / tokens (never commit)
+*.pem
+ghp_*
